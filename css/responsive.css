@@ -3,14 +3,16 @@
 
 /* Responsive Large Mobile */
 
-@media screen and (min-width:576px) {
-
-}
+@media screen and (min-width:576px) {}
 
 
 /* Responsive Tablet */
 
 @media screen and (min-width:768px) {
+
+    main {
+        padding: 60px;
+    }
 
     #topbar {
         display: inline-block;
@@ -19,6 +21,11 @@
     #logo {
         text-align: left;
         vertical-align: middle;
+    }
+
+    .recipe-title {
+        width: 100%;
+        font-size: 22px;
     }
 
     .recipe-origin {
@@ -37,12 +44,25 @@
     }
 
     .quick-notes {
-	margin-top: 0;
+        margin-top: 0;
+    }
+
+    .ads {
+	display: block;
 }
+
+    .clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
 
 }
 
 
 /* Responsive Desktop */
 
-@media screen and (min-width:992px) {}
+@media screen and (min-width:992px) {
+
+    
+
+}
