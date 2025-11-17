@@ -1,3 +1,46 @@
 /* RESPONSIVE */
 
 
+/* Responsive Large Mobile */
+
+@media screen and (min-width:576px) {}
+
+/* Responsive Tablet */
+
+@media screen and (min-width:768px) {
+
+    #topbar {
+        display: inline-block;
+    }
+
+    #logo {
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        margin: 0;
+        width: calc(100% / 3);
+        margin-top: 30px;
+    }
+
+    .quick-notes {
+	margin-top: 0;
+}
+
+}
+
+}
+
+/* Responsive Desktop */
+
+@media screen and (min-width:992px) {}
