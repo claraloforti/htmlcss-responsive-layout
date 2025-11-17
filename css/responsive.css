@@ -29,10 +29,6 @@
         padding: 60px;
     }
 
-    .container {
-        min-width: 100%;
-    }
-
     #topbar {
         display: inline-block;
     }
@@ -76,10 +72,6 @@
 /* Responsive Desktop */
 
 @media screen and (min-width:992px) {
-
-    .container {
-        min-width: 100%;
-    }
 
     .recipe-title {
         font-size: 32px;
