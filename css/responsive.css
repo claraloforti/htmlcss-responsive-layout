@@ -3,7 +3,9 @@
 
 /* Responsive Large Mobile */
 
-@media screen and (min-width:576px) {}
+@media screen and (min-width:576px) {
+    
+}
 
 
 /* Responsive Tablet */
@@ -48,8 +50,8 @@
     }
 
     .ads {
-	display: block;
-}
+        display: block;
+    }
 
     .clearfix img {
         float: left;
@@ -63,6 +65,44 @@
 
 @media screen and (min-width:992px) {
 
-    
+    .container {
+        min-width: 100%;
+    }
+
+    .recipe-title {
+        font-size: 32px;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-basis: 70%;
+    }
+
+    .recipe-info {
+        flex-basis: 30%;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .quick-notes li {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .quick-notes {
+        margin-top: 30px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
 
 }
