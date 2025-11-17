@@ -3,7 +3,10 @@
 
 /* Responsive Large Mobile */
 
-@media screen and (min-width:576px) {}
+@media screen and (min-width:576px) {
+
+}
+
 
 /* Responsive Tablet */
 
@@ -39,7 +42,6 @@
 
 }
 
-}
 
 /* Responsive Desktop */
 
