@@ -4,7 +4,20 @@
 /* Responsive Large Mobile */
 
 @media screen and (min-width:576px) {
-    
+
+    .container {
+        min-width: 100%;
+    }
+
+    .clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .social-networks .label {
+	display: inline;
+}
+
 }
 
 
@@ -14,6 +27,10 @@
 
     main {
         padding: 60px;
+    }
+
+    .container {
+        min-width: 100%;
     }
 
     #topbar {
@@ -51,11 +68,6 @@
 
     .ads {
         display: block;
-    }
-
-    .clearfix img {
-        float: left;
-        margin-right: 10px;
     }
 
 }
