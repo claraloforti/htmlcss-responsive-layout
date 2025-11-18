@@ -63,8 +63,13 @@
     }
 
     .ads {
-        display: block;
+        display: inline-block;
+        margin: 0 auto;
     }
+
+    .ads img {
+	width: 100%;
+}
 
 }
 
